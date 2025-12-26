@@ -1,5 +1,3 @@
-//LVGL9.1_TFT_eSPI_Exemplos
-
 #pragma GCC optimize("Ofast")
 
 #include <Arduino.h>
@@ -10,9 +8,17 @@
 
 /* Incluindo exemplos do LVGL */
 
+//#include <examples/lv_examples.h>
+//#include <../../examples/lv_examples.h>
+//#include <../examples/lv_examples.h>
+//#include <../../lv_examples.h>
+//#include <../lv_examples.h>
 
+//#include <examples/lv_examples.h>
 #include <../examples/lv_examples.h>
+//#include <examples/widgets/lv_example_widgets.h>
 #include <../examples/widgets/lv_example_widgets.h>
+//#include <demos/lv_demos.h>
 #include <../demos/lv_demos.h>
 
 /* ======================================================
@@ -237,7 +243,6 @@ lv_demo_widgets();          // 34% memory used - Demo Start
 //lv_example_win_1();
   //-------------------------------------------------------------------
 
-
   last_tick = millis();
 }
 
@@ -254,3 +259,4 @@ void loop()
 
   delay(5);
 }
+
