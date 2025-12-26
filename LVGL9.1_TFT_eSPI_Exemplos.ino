@@ -8,17 +8,8 @@
 
 /* Incluindo exemplos do LVGL */
 
-//#include <examples/lv_examples.h>
-//#include <../../examples/lv_examples.h>
-//#include <../examples/lv_examples.h>
-//#include <../../lv_examples.h>
-//#include <../lv_examples.h>
-
-//#include <examples/lv_examples.h>
 #include <../examples/lv_examples.h>
-//#include <examples/widgets/lv_example_widgets.h>
 #include <../examples/widgets/lv_example_widgets.h>
-//#include <demos/lv_demos.h>
 #include <../demos/lv_demos.h>
 
 /* ======================================================
